@@ -90,7 +90,7 @@
     <script type="text/javascript">
         function formcommit() {
             //获取用户输入的账号
-            var loginNameObj =  document.getElementById("loginName");
+            var loginNameObj =  document.getElementById("loginCode");
             //获取用户输入的密码
             var passwordObj =  document.getElementById("passWord");
             if (!/^[0-9]{11}$/.test(loginNameObj.value)) {
@@ -112,12 +112,12 @@
             <img src="img/5.png" width="80" height="65">
         </div>
         <h2>欢迎登录宿舍管理系统</h2>
-        <form action="#" method=post id="loginForm" onsubmit="return formcommit()">
+        <form action="login.action" method=get id="loginForm" onsubmit="return formcommit()">
             <table>
                 <tbody>
                 <tr class="del">
                     <td>账号：</td>
-                    <td><input style="width: 160px; height: 26px" name=loginName id="loginName" placeholder="请输入学号或工作号！"></td>
+                    <td><input style="width: 160px; height: 26px" name=loginCode id="loginCode" placeholder="请输入学号或工作号！"></td>
                 </tr>
                 <tr class="pass">
                     <td>密码：</td>
