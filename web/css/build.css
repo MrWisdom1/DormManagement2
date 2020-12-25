@@ -1,0 +1,173 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.data_list{
+	width: 90%;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	margin: 50px auto;
+}
+.list_title{
+	width: 95%;
+	padding: 20px 10px;
+	margin: 0 auto;
+	border-bottom: 1px solid #CCCCCC;
+}
+.Add_data{
+	width: 70px;
+	height: 40px;
+	cursor: pointer;
+	margin: 20px 20px;
+	background: #00CC00;
+	border: 3px solid #00CC00;
+	color: white;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;
+}
+.Add_data::before,.Add_data::after{
+	content: "";
+	position: absolute;
+	width: 14px;
+	height: 3px;
+	background: white;
+	transform: skewX(50deg);
+	transition: .4s linear;
+}
+.Add_data::before{
+	top: -3px;
+	left: 10%;
+}
+.Add_data::after{
+	bottom: -3px;
+	right: 10%;
+}
+.Add_data:hover::before{
+	left: 80%;
+}
+.Add_data:hover::after{
+	right: 80%;
+}
+.data_search{
+	margin-left: 80%;
+	margin-top: -78px;
+	margin-bottom: 20px;
+}
+.btn_search{
+	width: 70px;
+	height: 40px;
+	cursor: pointer;
+	margin: 20px 20px;
+	background: #3498db;
+	border: 3px solid #3498db;
+	color: white;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;
+}
+.btn_search::before,.btn_search::after{
+	content: "";
+	position: absolute;
+	width: 14px;
+	height: 3px;
+	background: white;
+	transform: skewX(50deg);
+	transition: .4s linear;
+}
+.btn_search::before{
+	top: -3px;
+	left: 10%;
+}
+.btn_search::after{
+	bottom: -3px;
+	right: 10%;
+}
+.btn_search:hover::before{
+	left: 80%;
+}
+.btn_search:hover::after{
+	right: 80%;
+}
+.dorm_search{
+	width: 150px;
+	height: 40px;
+}
+.list_deal{
+	width: 96%;
+	margin: 0 auto;
+}
+.btn_modify{
+	width: 70px;
+	height: 40px;
+	cursor: pointer;
+	margin: 5px 5px;
+	background: #3498db;
+	border: 3px solid #3498db;
+	color: white;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;
+}
+.btn_modify::before,.btn_modify::after{
+	content: "";
+	position: absolute;
+	width: 14px;
+	height: 3px;
+	background: white;
+	transform: skewX(50deg);
+	transition: .4s linear;
+}
+.btn_modify::before{
+	top: -3px;
+	left: 10%;
+}
+.btn_modify::after{
+	bottom: -3px;
+	right: 10%;
+}
+.btn_modify:hover::before{
+	left: 80%;
+}
+.btn_modify:hover::after{
+	right: 80%;
+}
+.btn{
+	width: 70px;
+	height: 40px;
+	cursor: pointer;
+	margin: 5px 5px;
+	background: #D80000;
+	border: 3px solid #D80000;
+	color: white;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;
+}
+.btn::before,.btn::after{
+	content: "";
+	position: absolute;
+	width: 14px;
+	height: 3px;
+	background: white;
+	transform: skewX(50deg);
+	transition: .4s linear;
+}
+.btn::before{
+	top: -3px;
+	left: 10%;
+}
+.btn::after{
+	bottom: -3px;
+	right: 10%;
+}
+.btn:hover::before{
+	left: 80%;
+}
+.btn:hover::after{
+	right: 80%;
+}

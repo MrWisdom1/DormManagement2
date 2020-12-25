@@ -126,7 +126,7 @@
                 </tr>
                 <tr class="jizhu">
                     <td>
-                        <input type="checkbox" name="remember" id="remember" class="custom-control-input">
+                        <input type="checkbox" name="remember" id="remember" value="remember-me" class="custom-control-input">
                         <label for="remember" class="custom-control-label">记住我</label>
                     </td>
                 </tr>
